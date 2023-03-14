@@ -1,6 +1,4 @@
 import {Builder, By, Capabilities, until, WebDriver, WebElement} from 'selenium-webdriver'
-import { tsImportEqualsDeclaration } from '@babel/types'
-import { timingSafeEqual } from 'crypto'
 const chromedriver = require('chromedriver')
 
 interface Options {
